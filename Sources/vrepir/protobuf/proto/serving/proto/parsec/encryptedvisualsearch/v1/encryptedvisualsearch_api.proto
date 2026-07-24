@@ -1,0 +1,54 @@
+// Copyright 2026 Apple Inc. and the Swift Homomorphic Encryption project authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+syntax = "proto3";
+
+package apple.parsec.encryptedvisualsearch.v1;
+
+import "google/protobuf/any.proto";
+
+import "serving/proto/parsec/search/response_status.proto";
+
+message EncryptedVisualSearchRequest {
+  repeated EVSQuery queries = 1;
+  bytes debug = 1100;
+  bytes debug_evaluation_key = 1101;
+}
+
+message EVSQuery {
+  google.protobuf.Any compute_request = 1;
+  VisualSearchParams visual_search_params = 2;
+}
+
+message VisualSearchParams {
+  string embedding_model_urn = 1;
+  string codebook_urn = 2;
+}
+
+message EncryptedVisualSearchResponse {
+  repeated EVSResult results = 1;
+  string trace_id = 2;
+  bytes debug = 1100;
+}
+
+message EVSResult {
+  google.protobuf.Any compute_response = 1;
+  EVSResponseMetadata metadata = 2;
+}
+
+message EVSResponseMetadata {
+  apple.parsec.search.StatusCode status_code = 1;
+  apple.parsec.search.Error error = 2;
+  string index_version = 3;
+}

@@ -1,0 +1,39 @@
+{
+  "instances": [
+    {
+      "name": "pcc-agent",
+      "darwinInitOverrides": {
+        "local-host-name": "pcc-agent",
+        "preferences": [
+          {
+            "application_id": "com.apple.cloudos.cb_jobhelper",
+            "key": "EnablePIR",
+            "value": false
+          }
+        ],
+        "secure-config": {
+          "com.apple.cloudos.PCCAgentKit.RemoteTools": "PIRTool",
+          "com.apple.cloudboard.skipMultiAppValidations": true
+        }
+      },
+      "release": "49183"
+    },
+    {
+      "name": "pcc-agent-worker",
+      "darwinInitOverrides": {
+        "local-host-name": "pcc-agent-worker",
+        "preferences": [
+          {
+            "application_id": "com.apple.cloudos.cb_jobhelper",
+            "key": "EnablePIR",
+            "value": true
+          }
+        ],
+        "secure-config": {
+          "com.apple.cloudboard.cb_bridged.pirService.serviceURL": "http://192.168.64.1:5555"
+        }
+      },
+      "release": "49144"
+    }
+  ]
+}

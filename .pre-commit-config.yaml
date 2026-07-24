@@ -1,0 +1,57 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: trailing-whitespace
+-   repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5
+    hooks:
+    -   id: insert-license
+        name: insert-license
+        types_or: [c, swift, proto]
+        args:
+        -   --license-filepath
+        -   copyright-header.txt
+        -   --comment-style
+        -   //
+        -   --allow-past-years
+        -   --use-current-year
+        -   --detect-license-in-X-top-lines=11
+    -   id: insert-license
+        name: insert-license-sh
+        types_or: [shell]
+        args:
+        -   --license-filepath
+        -   copyright-header.txt
+        -   --comment-style
+        -   "##"
+        -   --allow-past-years
+        -   --use-current-year
+-   repo: local
+    hooks:
+    -   id: plutil
+        name: plutil
+        entry: plutil
+        language: system
+        files: \.(plist|entitlements)
+        args: ["-convert", "xml1"]
+    -   id: clang-format
+        name: clang-format
+        entry: clang-format
+        language: system
+        types_or: [c, c++, objective-c]
+        args: ["-i"]
+    # Note, this is https://github.com/nicklockwood/SwiftFormat, not
+    # https://github.com/apple/swift-format
+    -   id: swiftformat
+        name: swiftformat
+        entry: swiftformat
+        language: system
+        types: [swift]
+    # https://github.com/realm/SwiftLint
+    -   id: swiftlint
+        name: swiftlint
+        entry: swiftlint lint --strict
+        language: system
+        exclude: .*\.(pb|grpc)\.swift$
+        types: [swift]

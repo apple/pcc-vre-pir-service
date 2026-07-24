@@ -1,0 +1,2697 @@
+[
+  {
+    "embedding": [0.98042256, 0.11815785, 0.15751302],
+    "localizedTitles": {"en_US": "Laptop"},
+    "id": 0
+  },
+  {
+    "embedding": [0.98423946, 0.16004597, 0.07522033],
+    "localizedTitles": {"en_US": "Smartphone"},
+    "id": 1
+  },
+  {
+    "id": 2,
+    "localizedTitles": {"en_US": "Tablet"},
+    "embedding": [0.97665626, 0.17567737, 0.12361246]
+  },
+  {
+    "id": 3,
+    "localizedTitles": {"en_US": "Monitor"},
+    "embedding": [0.98791707, 0.09416319, 0.12309831]
+  },
+  {
+    "id": 4,
+    "localizedTitles": {"en_US": "Keyboard"},
+    "embedding": [0.99091035, 0.11715070, 0.06612349]
+  },
+  {
+    "id": 5,
+    "localizedTitles": {"en_US": "Mouse"},
+    "embedding": [0.97259500, 0.16837992, 0.16033459]
+  },
+  {
+    "id": 6,
+    "localizedTitles": {"en_US": "Headphones"},
+    "embedding": [0.98832047, 0.07014200, 0.13528760]
+  },
+  {
+    "id": 7,
+    "localizedTitles": {"en_US": "Camera"},
+    "embedding": [0.97071666, 0.12613186, 0.20445018]
+  },
+  {
+    "id": 8,
+    "localizedTitles": {"en_US": "Apple"},
+    "embedding": [0.20457242, 0.97258645, 0.11056981]
+  },
+  {
+    "id": 9,
+    "localizedTitles": {"en_US": "Banana"},
+    "embedding": [0.17473012, 0.97013180, 0.16826649]
+  },
+  {
+    "id": 10,
+    "localizedTitles": {"en_US": "Orange"},
+    "embedding": [0.13089363, 0.98001820, 0.14977026]
+  },
+  {
+    "id": 11,
+    "localizedTitles": {"en_US": "Bread"},
+    "embedding": [0.06875614, 0.99024904, 0.12115858]
+  },
+  {
+    "id": 12,
+    "localizedTitles": {"en_US": "Cheese"},
+    "embedding": [0.18013407, 0.98036390, 0.08024006]
+  },
+  {
+    "id": 13,
+    "localizedTitles": {"en_US": "Milk"},
+    "embedding": [0.11632655, 0.99083040, 0.06872558]
+  },
+  {
+    "id": 14,
+    "localizedTitles": {"en_US": "Eggs"},
+    "embedding": [0.17149459, 0.97501660, 0.14118172]
+  },
+  {
+    "id": 15,
+    "localizedTitles": {"en_US": "Chicken"},
+    "embedding": [0.08913671, 0.99380344, 0.06640282]
+  },
+  {
+    "id": 16,
+    "localizedTitles": {"en_US": "Basketball"},
+    "embedding": [0.06892324, 0.07313659, 0.99493750]
+  },
+  {
+    "id": 17,
+    "localizedTitles": {"en_US": "Soccer Ball"},
+    "embedding": [0.15404207, 0.11536002, 0.98130685]
+  },
+  {
+    "id": 18,
+    "localizedTitles": {"en_US": "Tennis Racket"},
+    "embedding": [0.18766452, 0.06886251, 0.97981626]
+  },
+  {
+    "id": 19,
+    "localizedTitles": {"en_US": "Baseball Bat"},
+    "embedding": [0.06950624, 0.16315685, 0.98414870]
+  },
+  {
+    "id": 20,
+    "localizedTitles": {"en_US": "Golf Club"},
+    "embedding": [0.10686664, 0.08834225, 0.99034095]
+  },
+  {
+    "id": 21,
+    "localizedTitles": {"en_US": "Bicycle"},
+    "embedding": [0.13772333, 0.08482974, 0.98683137]
+  },
+  {
+    "id": 22,
+    "localizedTitles": {"en_US": "Skateboard"},
+    "embedding": [0.10945264, 0.18078028, 0.97741425]
+  },
+  {
+    "id": 23,
+    "localizedTitles": {"en_US": "Yoga Mat"},
+    "embedding": [0.19532795, 0.17264925, 0.96542180]
+  },
+  {
+    "id": 24,
+    "localizedTitles": {"en_US": "Printer"},
+    "embedding": [0.98651234, 0.09823456, 0.13245678]
+  },
+  {
+    "id": 25,
+    "localizedTitles": {"en_US": "Scanner"},
+    "embedding": [0.98234567, 0.12345678, 0.14156789]
+  },
+  {
+    "id": 26,
+    "localizedTitles": {"en_US": "Router"},
+    "embedding": [0.99012345, 0.08234567, 0.11345678]
+  },
+  {
+    "id": 27,
+    "localizedTitles": {"en_US": "Hard Drive"},
+    "embedding": [0.98567891, 0.11234567, 0.12567891]
+  },
+  {
+    "id": 28,
+    "localizedTitles": {"en_US": "SSD"},
+    "embedding": [0.99123456, 0.07823456, 0.10923456]
+  },
+  {
+    "id": 29,
+    "localizedTitles": {"en_US": "USB Hub"},
+    "embedding": [0.98345678, 0.10345678, 0.15123456]
+  },
+  {
+    "id": 30,
+    "localizedTitles": {"en_US": "Webcam"},
+    "embedding": [0.97823456, 0.13456789, 0.15923456]
+  },
+  {
+    "id": 31,
+    "localizedTitles": {"en_US": "Microphone"},
+    "embedding": [0.98123456, 0.09123456, 0.16823456]
+  },
+  {
+    "id": 32,
+    "localizedTitles": {"en_US": "Speakers"},
+    "embedding": [0.97934567, 0.14234567, 0.14534567]
+  },
+  {
+    "id": 33,
+    "localizedTitles": {"en_US": "Smart Watch"},
+    "embedding": [0.98456789, 0.15123456, 0.08923456]
+  },
+  {
+    "id": 34,
+    "localizedTitles": {"en_US": "Smart TV"},
+    "embedding": [0.98712345, 0.11923456, 0.10823456]
+  },
+  {
+    "id": 35,
+    "localizedTitles": {"en_US": "Projector"},
+    "embedding": [0.97645678, 0.16045678, 0.14245678]
+  },
+  {
+    "id": 36,
+    "localizedTitles": {"en_US": "Game Console"},
+    "embedding": [0.97523456, 0.17123456, 0.13623456]
+  },
+  {
+    "id": 37,
+    "localizedTitles": {"en_US": "VR Headset"},
+    "embedding": [0.97834567, 0.13734567, 0.15534567]
+  },
+  {
+    "id": 38,
+    "localizedTitles": {"en_US": "Drone"},
+    "embedding": [0.97145678, 0.14545678, 0.18345678]
+  },
+  {
+    "id": 39,
+    "localizedTitles": {"en_US": "Power Bank"},
+    "embedding": [0.98923456, 0.10023456, 0.10523456]
+  },
+  {
+    "id": 40,
+    "localizedTitles": {"en_US": "Charging Cable"},
+    "embedding": [0.99034567, 0.09534567, 0.09934567]
+  },
+  {
+    "id": 41,
+    "localizedTitles": {"en_US": "Laptop Stand"},
+    "embedding": [0.98234567, 0.12534567, 0.13934567]
+  },
+  {
+    "id": 42,
+    "localizedTitles": {"en_US": "Monitor Arm"},
+    "embedding": [0.98534567, 0.11034567, 0.13034567]
+  },
+  {
+    "id": 43,
+    "localizedTitles": {"en_US": "Desk Lamp"},
+    "embedding": [0.97934567, 0.15234567, 0.13234567]
+  },
+  {
+    "id": 44,
+    "localizedTitles": {"en_US": "CPU"},
+    "embedding": [0.99145678, 0.08645678, 0.09945678]
+  },
+  {
+    "id": 45,
+    "localizedTitles": {"en_US": "GPU"},
+    "embedding": [0.99023456, 0.09323456, 0.10323456]
+  },
+  {
+    "id": 46,
+    "localizedTitles": {"en_US": "RAM"},
+    "embedding": [0.99212345, 0.07612345, 0.09812345]
+  },
+  {
+    "id": 47,
+    "localizedTitles": {"en_US": "Motherboard"},
+    "embedding": [0.98912345, 0.10312345, 0.10612345]
+  },
+  {
+    "id": 48,
+    "localizedTitles": {"en_US": "Power Supply"},
+    "embedding": [0.98712345, 0.11512345, 0.11212345]
+  },
+  {
+    "id": 49,
+    "localizedTitles": {"en_US": "PC Case"},
+    "embedding": [0.98512345, 0.12712345, 0.11812345]
+  },
+  {
+    "id": 50,
+    "localizedTitles": {"en_US": "Cooling Fan"},
+    "embedding": [0.98312345, 0.13912345, 0.12412345]
+  },
+  {
+    "id": 51,
+    "localizedTitles": {"en_US": "Network Switch"},
+    "embedding": [0.99112345, 0.08812345, 0.10012345]
+  },
+  {
+    "id": 52,
+    "localizedTitles": {"en_US": "Ethernet Cable"},
+    "embedding": [0.99312345, 0.07012345, 0.09212345]
+  },
+  {
+    "id": 53,
+    "localizedTitles": {"en_US": "Modem"},
+    "embedding": [0.98812345, 0.10912345, 0.10812345]
+  },
+  {
+    "id": 54,
+    "localizedTitles": {"en_US": "Smart Speaker"},
+    "embedding": [0.97712345, 0.15512345, 0.14412345]
+  },
+  {
+    "id": 55,
+    "localizedTitles": {"en_US": "E-Reader"},
+    "embedding": [0.97612345, 0.16612345, 0.14012345]
+  },
+  {
+    "id": 56,
+    "localizedTitles": {"en_US": "Action Camera"},
+    "embedding": [0.97412345, 0.14212345, 0.17612345]
+  },
+  {
+    "id": 57,
+    "localizedTitles": {"en_US": "Tripod"},
+    "embedding": [0.97212345, 0.13012345, 0.19512345]
+  },
+  {
+    "id": 58,
+    "localizedTitles": {"en_US": "Memory Card"},
+    "embedding": [0.99412345, 0.06812345, 0.08612345]
+  },
+  {
+    "id": 59,
+    "localizedTitles": {"en_US": "SD Card Reader"},
+    "embedding": [0.99212345, 0.08012345, 0.09412345]
+  },
+  {
+    "id": 60,
+    "localizedTitles": {"en_US": "Bluetooth Adapter"},
+    "embedding": [0.98912345, 0.10512345, 0.10212345]
+  },
+  {
+    "id": 61,
+    "localizedTitles": {"en_US": "Wireless Charger"},
+    "embedding": [0.98612345, 0.12112345, 0.11412345]
+  },
+  {
+    "id": 62,
+    "localizedTitles": {"en_US": "Smart Thermostat"},
+    "embedding": [0.97812345, 0.15012345, 0.13812345]
+  },
+  {
+    "id": 63,
+    "localizedTitles": {"en_US": "Smart Doorbell"},
+    "embedding": [0.97512345, 0.16212345, 0.14612345]
+  },
+  {
+    "id": 64,
+    "localizedTitles": {"en_US": "Security Camera"},
+    "embedding": [0.97312345, 0.13512345, 0.18912345]
+  },
+  {
+    "id": 65,
+    "localizedTitles": {"en_US": "Smart Lock"},
+    "embedding": [0.97912345, 0.14812345, 0.13612345]
+  },
+  {
+    "id": 66,
+    "localizedTitles": {"en_US": "Smart Plug"},
+    "embedding": [0.98112345, 0.12912345, 0.14212345]
+  },
+  {
+    "id": 67,
+    "localizedTitles": {"en_US": "Smart Bulb"},
+    "embedding": [0.97712345, 0.15812345, 0.13212345]
+  },
+  {
+    "id": 68,
+    "localizedTitles": {"en_US": "Robot Vacuum"},
+    "embedding": [0.97212345, 0.16412345, 0.16212345]
+  },
+  {
+    "id": 69,
+    "localizedTitles": {"en_US": "Air Purifier"},
+    "embedding": [0.97012345, 0.17012345, 0.17012345]
+  },
+  {
+    "id": 70,
+    "localizedTitles": {"en_US": "Portable SSD"},
+    "embedding": [0.99012345, 0.09812345, 0.09612345]
+  },
+  {
+    "id": 71,
+    "localizedTitles": {"en_US": "Flash Drive"},
+    "embedding": [0.99112345, 0.09012345, 0.09812345]
+  },
+  {
+    "id": 72,
+    "localizedTitles": {"en_US": "Optical Drive"},
+    "embedding": [0.98812345, 0.11012345, 0.10612345]
+  },
+  {
+    "id": 73,
+    "localizedTitles": {"en_US": "Mechanical Keyboard"},
+    "embedding": [0.99212345, 0.08212345, 0.09212345]
+  },
+  {
+    "id": 74,
+    "localizedTitles": {"en_US": "Gaming Mouse"},
+    "embedding": [0.98712345, 0.12212345, 0.10312345]
+  },
+  {
+    "id": 75,
+    "localizedTitles": {"en_US": "Gaming Headset"},
+    "embedding": [0.98412345, 0.13412345, 0.11712345]
+  },
+  {
+    "id": 76,
+    "localizedTitles": {"en_US": "Gaming Chair"},
+    "embedding": [0.97612345, 0.16812345, 0.13312345]
+  },
+  {
+    "id": 77,
+    "localizedTitles": {"en_US": "Mousepad"},
+    "embedding": [0.98912345, 0.11212345, 0.09812345]
+  },
+  {
+    "id": 78,
+    "localizedTitles": {"en_US": "Controller"},
+    "embedding": [0.97812345, 0.15412345, 0.13912345]
+  },
+  {
+    "id": 79,
+    "localizedTitles": {"en_US": "Joystick"},
+    "embedding": [0.97412345, 0.15212345, 0.16712345]
+  },
+  {
+    "id": 80,
+    "localizedTitles": {"en_US": "Drawing Tablet"},
+    "embedding": [0.97912345, 0.14612345, 0.14112345]
+  },
+  {
+    "id": 81,
+    "localizedTitles": {"en_US": "Stylus"},
+    "embedding": [0.98212345, 0.13212345, 0.13612345]
+  },
+  {
+    "id": 82,
+    "localizedTitles": {"en_US": "Numeric Keypad"},
+    "embedding": [0.99312345, 0.07812345, 0.08812345]
+  },
+  {
+    "id": 83,
+    "localizedTitles": {"en_US": "Docking Station"},
+    "embedding": [0.98612345, 0.12512345, 0.10912345]
+  },
+  {
+    "id": 84,
+    "localizedTitles": {"en_US": "KVM Switch"},
+    "embedding": [0.98912345, 0.10712345, 0.10112345]
+  },
+  {
+    "id": 85,
+    "localizedTitles": {"en_US": "HDMI Cable"},
+    "embedding": [0.99412345, 0.07212345, 0.08212345]
+  },
+  {
+    "id": 86,
+    "localizedTitles": {"en_US": "DisplayPort Cable"},
+    "embedding": [0.99512345, 0.06612345, 0.07612345]
+  },
+  {
+    "id": 87,
+    "localizedTitles": {"en_US": "Surge Protector"},
+    "embedding": [0.98312345, 0.13712345, 0.12012345]
+  },
+  {
+    "id": 88,
+    "localizedTitles": {"en_US": "UPS Battery"},
+    "embedding": [0.98112345, 0.14112345, 0.13112345]
+  },
+  {
+    "id": 89,
+    "localizedTitles": {"en_US": "Server Rack"},
+    "embedding": [0.97712345, 0.16012345, 0.13512345]
+  },
+  {
+    "id": 90,
+    "localizedTitles": {"en_US": "NAS Device"},
+    "embedding": [0.97912345, 0.15212345, 0.13012345]
+  },
+  {
+    "id": 91,
+    "localizedTitles": {"en_US": "Raspberry Pi"},
+    "embedding": [0.98212345, 0.14312345, 0.12212345]
+  },
+  {
+    "id": 92,
+    "localizedTitles": {"en_US": "Arduino"},
+    "embedding": [0.98412345, 0.13512345, 0.11312345]
+  },
+  {
+    "id": 93,
+    "localizedTitles": {"en_US": "Soldering Iron"},
+    "embedding": [0.97512345, 0.17312345, 0.13812345]
+  },
+  {
+    "id": 94,
+    "localizedTitles": {"en_US": "Multimeter"},
+    "embedding": [0.97312345, 0.17512345, 0.14812345]
+  },
+  {
+    "id": 95,
+    "localizedTitles": {"en_US": "Oscilloscope"},
+    "embedding": [0.97112345, 0.17712345, 0.15812345]
+  },
+  {
+    "id": 96,
+    "localizedTitles": {"en_US": "3D Printer"},
+    "embedding": [0.97212345, 0.17212345, 0.15312345]
+  },
+  {
+    "id": 97,
+    "localizedTitles": {"en_US": "Label Printer"},
+    "embedding": [0.98512345, 0.12812345, 0.11112345]
+  },
+  {
+    "id": 98,
+    "localizedTitles": {"en_US": "Barcode Scanner"},
+    "embedding": [0.98712345, 0.11712345, 0.10712345]
+  },
+  {
+    "id": 99,
+    "localizedTitles": {"en_US": "RFID Reader"},
+    "embedding": [0.98912345, 0.10112345, 0.09912345]
+  },
+  {
+    "id": 100,
+    "localizedTitles": {"en_US": "Strawberry"},
+    "embedding": [0.14512345, 0.98212345, 0.12312345]
+  },
+  {
+    "id": 101,
+    "localizedTitles": {"en_US": "Grapes"},
+    "embedding": [0.11312345, 0.98912345, 0.09312345]
+  },
+  {
+    "id": 102,
+    "localizedTitles": {"en_US": "Watermelon"},
+    "embedding": [0.16312345, 0.97812345, 0.12812345]
+  },
+  {
+    "id": 103,
+    "localizedTitles": {"en_US": "Mango"},
+    "embedding": [0.18312345, 0.97412345, 0.13312345]
+  },
+  {
+    "id": 104,
+    "localizedTitles": {"en_US": "Pineapple"},
+    "embedding": [0.15812345, 0.97912345, 0.12612345]
+  },
+  {
+    "id": 105,
+    "localizedTitles": {"en_US": "Peach"},
+    "embedding": [0.17312345, 0.97512345, 0.13812345]
+  },
+  {
+    "id": 106,
+    "localizedTitles": {"en_US": "Pear"},
+    "embedding": [0.16812345, 0.97712345, 0.13012345]
+  },
+  {
+    "id": 107,
+    "localizedTitles": {"en_US": "Cherry"},
+    "embedding": [0.13512345, 0.98612345, 0.09812345]
+  },
+  {
+    "id": 108,
+    "localizedTitles": {"en_US": "Blueberry"},
+    "embedding": [0.12012345, 0.98912345, 0.08212345]
+  },
+  {
+    "id": 109,
+    "localizedTitles": {"en_US": "Raspberry"},
+    "embedding": [0.14012345, 0.98512345, 0.09612345]
+  },
+  {
+    "id": 110,
+    "localizedTitles": {"en_US": "Lemon"},
+    "embedding": [0.12512345, 0.98812345, 0.09012345]
+  },
+  {
+    "id": 111,
+    "localizedTitles": {"en_US": "Lime"},
+    "embedding": [0.11012345, 0.99012345, 0.08612345]
+  },
+  {
+    "id": 112,
+    "localizedTitles": {"en_US": "Coconut"},
+    "embedding": [0.16012345, 0.97912345, 0.12212345]
+  },
+  {
+    "id": 113,
+    "localizedTitles": {"en_US": "Avocado"},
+    "embedding": [0.19012345, 0.97212345, 0.14012345]
+  },
+  {
+    "id": 114,
+    "localizedTitles": {"en_US": "Tomato"},
+    "embedding": [0.17812345, 0.97612345, 0.12412345]
+  },
+  {
+    "id": 115,
+    "localizedTitles": {"en_US": "Carrot"},
+    "embedding": [0.09512345, 0.99212345, 0.08012345]
+  },
+  {
+    "id": 116,
+    "localizedTitles": {"en_US": "Broccoli"},
+    "embedding": [0.08012345, 0.99412345, 0.07212345]
+  },
+  {
+    "id": 117,
+    "localizedTitles": {"en_US": "Spinach"},
+    "embedding": [0.07512345, 0.99512345, 0.06812345]
+  },
+  {
+    "id": 118,
+    "localizedTitles": {"en_US": "Lettuce"},
+    "embedding": [0.08512345, 0.99312345, 0.07612345]
+  },
+  {
+    "id": 119,
+    "localizedTitles": {"en_US": "Cucumber"},
+    "embedding": [0.09012345, 0.99212345, 0.08812345]
+  },
+  {
+    "id": 120,
+    "localizedTitles": {"en_US": "Bell Pepper"},
+    "embedding": [0.10012345, 0.99112345, 0.08412345]
+  },
+  {
+    "id": 121,
+    "localizedTitles": {"en_US": "Onion"},
+    "embedding": [0.07012345, 0.99612345, 0.05812345]
+  },
+  {
+    "id": 122,
+    "localizedTitles": {"en_US": "Garlic"},
+    "embedding": [0.06512345, 0.99712345, 0.04812345]
+  },
+  {
+    "id": 123,
+    "localizedTitles": {"en_US": "Potato"},
+    "embedding": [0.10512345, 0.99012345, 0.09212345]
+  },
+  {
+    "id": 124,
+    "localizedTitles": {"en_US": "Sweet Potato"},
+    "embedding": [0.11512345, 0.98912345, 0.09812345]
+  },
+  {
+    "id": 125,
+    "localizedTitles": {"en_US": "Corn"},
+    "embedding": [0.12512345, 0.98712345, 0.10212345]
+  },
+  {
+    "id": 126,
+    "localizedTitles": {"en_US": "Mushroom"},
+    "embedding": [0.13512345, 0.98512345, 0.10612345]
+  },
+  {
+    "id": 127,
+    "localizedTitles": {"en_US": "Butter"},
+    "embedding": [0.14512345, 0.98212345, 0.11812345]
+  },
+  {
+    "id": 128,
+    "localizedTitles": {"en_US": "Yogurt"},
+    "embedding": [0.12012345, 0.98912345, 0.08212345]
+  },
+  {
+    "id": 129,
+    "localizedTitles": {"en_US": "Cream"},
+    "embedding": [0.11012345, 0.99012345, 0.08612345]
+  },
+  {
+    "id": 130,
+    "localizedTitles": {"en_US": "Ice Cream"},
+    "embedding": [0.16512345, 0.97812345, 0.12612345]
+  },
+  {
+    "id": 131,
+    "localizedTitles": {"en_US": "Beef"},
+    "embedding": [0.09512345, 0.99212345, 0.08012345]
+  },
+  {
+    "id": 132,
+    "localizedTitles": {"en_US": "Pork"},
+    "embedding": [0.08512345, 0.99312345, 0.07612345]
+  },
+  {
+    "id": 133,
+    "localizedTitles": {"en_US": "Salmon"},
+    "embedding": [0.10512345, 0.99012345, 0.09212345]
+  },
+  {
+    "id": 134,
+    "localizedTitles": {"en_US": "Tuna"},
+    "embedding": [0.09012345, 0.99212345, 0.08812345]
+  },
+  {
+    "id": 135,
+    "localizedTitles": {"en_US": "Shrimp"},
+    "embedding": [0.11512345, 0.98912345, 0.09812345]
+  },
+  {
+    "id": 136,
+    "localizedTitles": {"en_US": "Pasta"},
+    "embedding": [0.12512345, 0.98712345, 0.10212345]
+  },
+  {
+    "id": 137,
+    "localizedTitles": {"en_US": "Rice"},
+    "embedding": [0.07512345, 0.99512345, 0.06812345]
+  },
+  {
+    "id": 138,
+    "localizedTitles": {"en_US": "Flour"},
+    "embedding": [0.06512345, 0.99712345, 0.04812345]
+  },
+  {
+    "id": 139,
+    "localizedTitles": {"en_US": "Sugar"},
+    "embedding": [0.07012345, 0.99612345, 0.05812345]
+  },
+  {
+    "id": 140,
+    "localizedTitles": {"en_US": "Salt"},
+    "embedding": [0.05512345, 0.99812345, 0.03812345]
+  },
+  {
+    "id": 141,
+    "localizedTitles": {"en_US": "Pepper"},
+    "embedding": [0.06012345, 0.99712345, 0.04312345]
+  },
+  {
+    "id": 142,
+    "localizedTitles": {"en_US": "Olive Oil"},
+    "embedding": [0.13012345, 0.98612345, 0.10012345]
+  },
+  {
+    "id": 143,
+    "localizedTitles": {"en_US": "Soy Sauce"},
+    "embedding": [0.14012345, 0.98512345, 0.10412345]
+  },
+  {
+    "id": 144,
+    "localizedTitles": {"en_US": "Vinegar"},
+    "embedding": [0.10012345, 0.99112345, 0.08412345]
+  },
+  {
+    "id": 145,
+    "localizedTitles": {"en_US": "Honey"},
+    "embedding": [0.15012345, 0.98312345, 0.10812345]
+  },
+  {
+    "id": 146,
+    "localizedTitles": {"en_US": "Jam"},
+    "embedding": [0.16012345, 0.97912345, 0.12212345]
+  },
+  {
+    "id": 147,
+    "localizedTitles": {"en_US": "Peanut Butter"},
+    "embedding": [0.17012345, 0.97712345, 0.12812345]
+  },
+  {
+    "id": 148,
+    "localizedTitles": {"en_US": "Cereal"},
+    "embedding": [0.11012345, 0.99012345, 0.08612345]
+  },
+  {
+    "id": 149,
+    "localizedTitles": {"en_US": "Oats"},
+    "embedding": [0.08012345, 0.99412345, 0.07212345]
+  },
+  {
+    "id": 150,
+    "localizedTitles": {"en_US": "Coffee"},
+    "embedding": [0.18012345, 0.97612345, 0.12412345]
+  },
+  {
+    "id": 151,
+    "localizedTitles": {"en_US": "Tea"},
+    "embedding": [0.15512345, 0.98112345, 0.11412345]
+  },
+  {
+    "id": 152,
+    "localizedTitles": {"en_US": "Juice"},
+    "embedding": [0.14012345, 0.98512345, 0.10412345]
+  },
+  {
+    "id": 153,
+    "localizedTitles": {"en_US": "Water Bottle"},
+    "embedding": [0.12012345, 0.98912345, 0.08212345]
+  },
+  {
+    "id": 154,
+    "localizedTitles": {"en_US": "Soda"},
+    "embedding": [0.16512345, 0.97812345, 0.12612345]
+  },
+  {
+    "id": 155,
+    "localizedTitles": {"en_US": "Beer"},
+    "embedding": [0.19012345, 0.97212345, 0.14012345]
+  },
+  {
+    "id": 156,
+    "localizedTitles": {"en_US": "Wine"},
+    "embedding": [0.18512345, 0.97412345, 0.13512345]
+  },
+  {
+    "id": 157,
+    "localizedTitles": {"en_US": "Chocolate"},
+    "embedding": [0.17512345, 0.97612345, 0.13012345]
+  },
+  {
+    "id": 158,
+    "localizedTitles": {"en_US": "Chips"},
+    "embedding": [0.16012345, 0.97912345, 0.12212345]
+  },
+  {
+    "id": 159,
+    "localizedTitles": {"en_US": "Cookies"},
+    "embedding": [0.15012345, 0.98312345, 0.10812345]
+  },
+  {
+    "id": 160,
+    "localizedTitles": {"en_US": "Cake"},
+    "embedding": [0.17012345, 0.97712345, 0.12812345]
+  },
+  {
+    "id": 161,
+    "localizedTitles": {"en_US": "Muffin"},
+    "embedding": [0.16512345, 0.97812345, 0.12612345]
+  },
+  {
+    "id": 162,
+    "localizedTitles": {"en_US": "Donut"},
+    "embedding": [0.18012345, 0.97612345, 0.12412345]
+  },
+  {
+    "id": 163,
+    "localizedTitles": {"en_US": "Croissant"},
+    "embedding": [0.15512345, 0.98112345, 0.11412345]
+  },
+  {
+    "id": 164,
+    "localizedTitles": {"en_US": "Bagel"},
+    "embedding": [0.13012345, 0.98612345, 0.10012345]
+  },
+  {
+    "id": 165,
+    "localizedTitles": {"en_US": "Tortilla"},
+    "embedding": [0.11512345, 0.98912345, 0.09812345]
+  },
+  {
+    "id": 166,
+    "localizedTitles": {"en_US": "Pizza"},
+    "embedding": [0.19512345, 0.97112345, 0.14212345]
+  },
+  {
+    "id": 167,
+    "localizedTitles": {"en_US": "Burger"},
+    "embedding": [0.20012345, 0.97012345, 0.13812345]
+  },
+  {
+    "id": 168,
+    "localizedTitles": {"en_US": "Hot Dog"},
+    "embedding": [0.18512345, 0.97412345, 0.13512345]
+  },
+  {
+    "id": 169,
+    "localizedTitles": {"en_US": "Sandwich"},
+    "embedding": [0.17512345, 0.97612345, 0.13012345]
+  },
+  {
+    "id": 170,
+    "localizedTitles": {"en_US": "Soup"},
+    "embedding": [0.14512345, 0.98212345, 0.11812345]
+  },
+  {
+    "id": 171,
+    "localizedTitles": {"en_US": "Salad"},
+    "embedding": [0.12012345, 0.98912345, 0.08212345]
+  },
+  {
+    "id": 172,
+    "localizedTitles": {"en_US": "Sushi"},
+    "embedding": [0.16012345, 0.97912345, 0.12212345]
+  },
+  {
+    "id": 173,
+    "localizedTitles": {"en_US": "Noodles"},
+    "embedding": [0.13512345, 0.98512345, 0.10612345]
+  },
+  {
+    "id": 174,
+    "localizedTitles": {"en_US": "Tofu"},
+    "embedding": [0.10012345, 0.99112345, 0.08412345]
+  },
+  {
+    "id": 175,
+    "localizedTitles": {"en_US": "Beans"},
+    "embedding": [0.09012345, 0.99212345, 0.08812345]
+  },
+  {
+    "id": 176,
+    "localizedTitles": {"en_US": "Lentils"},
+    "embedding": [0.08012345, 0.99412345, 0.07212345]
+  },
+  {
+    "id": 177,
+    "localizedTitles": {"en_US": "Quinoa"},
+    "embedding": [0.11012345, 0.99012345, 0.08612345]
+  },
+  {
+    "id": 178,
+    "localizedTitles": {"en_US": "Granola"},
+    "embedding": [0.12512345, 0.98712345, 0.10212345]
+  },
+  {
+    "id": 179,
+    "localizedTitles": {"en_US": "Protein Bar"},
+    "embedding": [0.14012345, 0.98512345, 0.10412345]
+  },
+  {
+    "id": 180,
+    "localizedTitles": {"en_US": "Protein Powder"},
+    "embedding": [0.15012345, 0.98312345, 0.10812345]
+  },
+  {
+    "id": 181,
+    "localizedTitles": {"en_US": "Vitamin C"},
+    "embedding": [0.13012345, 0.98612345, 0.10012345]
+  },
+  {
+    "id": 182,
+    "localizedTitles": {"en_US": "Multivitamin"},
+    "embedding": [0.14512345, 0.98212345, 0.11812345]
+  },
+  {
+    "id": 183,
+    "localizedTitles": {"en_US": "Fish Oil"},
+    "embedding": [0.11512345, 0.98912345, 0.09812345]
+  },
+  {
+    "id": 184,
+    "localizedTitles": {"en_US": "Probiotic"},
+    "embedding": [0.10512345, 0.99012345, 0.09212345]
+  },
+  {
+    "id": 185,
+    "localizedTitles": {"en_US": "Almond Milk"},
+    "embedding": [0.12512345, 0.98712345, 0.10212345]
+  },
+  {
+    "id": 186,
+    "localizedTitles": {"en_US": "Soy Milk"},
+    "embedding": [0.11012345, 0.99012345, 0.08612345]
+  },
+  {
+    "id": 187,
+    "localizedTitles": {"en_US": "Oat Milk"},
+    "embedding": [0.09512345, 0.99212345, 0.08012345]
+  },
+  {
+    "id": 188,
+    "localizedTitles": {"en_US": "Coconut Milk"},
+    "embedding": [0.13512345, 0.98512345, 0.10612345]
+  },
+  {
+    "id": 189,
+    "localizedTitles": {"en_US": "Ketchup"},
+    "embedding": [0.16012345, 0.97912345, 0.12212345]
+  },
+  {
+    "id": 190,
+    "localizedTitles": {"en_US": "Mustard"},
+    "embedding": [0.14512345, 0.98212345, 0.11812345]
+  },
+  {
+    "id": 191,
+    "localizedTitles": {"en_US": "Mayonnaise"},
+    "embedding": [0.17012345, 0.97712345, 0.12812345]
+  },
+  {
+    "id": 192,
+    "localizedTitles": {"en_US": "Hot Sauce"},
+    "embedding": [0.18012345, 0.97612345, 0.12412345]
+  },
+  {
+    "id": 193,
+    "localizedTitles": {"en_US": "BBQ Sauce"},
+    "embedding": [0.17512345, 0.97612345, 0.13012345]
+  },
+  {
+    "id": 194,
+    "localizedTitles": {"en_US": "Salsa"},
+    "embedding": [0.16512345, 0.97812345, 0.12612345]
+  },
+  {
+    "id": 195,
+    "localizedTitles": {"en_US": "Hummus"},
+    "embedding": [0.15012345, 0.98312345, 0.10812345]
+  },
+  {
+    "id": 196,
+    "localizedTitles": {"en_US": "Guacamole"},
+    "embedding": [0.18512345, 0.97412345, 0.13512345]
+  },
+  {
+    "id": 197,
+    "localizedTitles": {"en_US": "Canned Tuna"},
+    "embedding": [0.09012345, 0.99212345, 0.08812345]
+  },
+  {
+    "id": 198,
+    "localizedTitles": {"en_US": "Canned Beans"},
+    "embedding": [0.08512345, 0.99312345, 0.07612345]
+  },
+  {
+    "id": 199,
+    "localizedTitles": {"en_US": "Canned Soup"},
+    "embedding": [0.10012345, 0.99112345, 0.08412345]
+  },
+  {
+    "id": 200,
+    "localizedTitles": {"en_US": "Running Shoes"},
+    "embedding": [0.13012345, 0.08512345, 0.98812345]
+  },
+  {
+    "id": 201,
+    "localizedTitles": {"en_US": "Dumbbells"},
+    "embedding": [0.11012345, 0.09012345, 0.98912345]
+  },
+  {
+    "id": 202,
+    "localizedTitles": {"en_US": "Barbell"},
+    "embedding": [0.09012345, 0.07012345, 0.99312345]
+  },
+  {
+    "id": 203,
+    "localizedTitles": {"en_US": "Weight Plates"},
+    "embedding": [0.10012345, 0.08012345, 0.99112345]
+  },
+  {
+    "id": 204,
+    "localizedTitles": {"en_US": "Resistance Bands"},
+    "embedding": [0.14012345, 0.10012345, 0.98512345]
+  },
+  {
+    "id": 205,
+    "localizedTitles": {"en_US": "Pull-up Bar"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 206,
+    "localizedTitles": {"en_US": "Jump Rope"},
+    "embedding": [0.16012345, 0.12012345, 0.97912345]
+  },
+  {
+    "id": 207,
+    "localizedTitles": {"en_US": "Treadmill"},
+    "embedding": [0.11512345, 0.08512345, 0.99012345]
+  },
+  {
+    "id": 208,
+    "localizedTitles": {"en_US": "Exercise Bike"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 209,
+    "localizedTitles": {"en_US": "Rowing Machine"},
+    "embedding": [0.12512345, 0.09512345, 0.98712345]
+  },
+  {
+    "id": 210,
+    "localizedTitles": {"en_US": "Elliptical"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 211,
+    "localizedTitles": {"en_US": "Foam Roller"},
+    "embedding": [0.17012345, 0.13012345, 0.97712345]
+  },
+  {
+    "id": 212,
+    "localizedTitles": {"en_US": "Kettlebell"},
+    "embedding": [0.10512345, 0.08012345, 0.99012345]
+  },
+  {
+    "id": 213,
+    "localizedTitles": {"en_US": "Medicine Ball"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 214,
+    "localizedTitles": {"en_US": "Punching Bag"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 215,
+    "localizedTitles": {"en_US": "Boxing Gloves"},
+    "embedding": [0.17512345, 0.14512345, 0.97412345]
+  },
+  {
+    "id": 216,
+    "localizedTitles": {"en_US": "Helmet"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 217,
+    "localizedTitles": {"en_US": "Knee Pads"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 218,
+    "localizedTitles": {"en_US": "Elbow Pads"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 219,
+    "localizedTitles": {"en_US": "Shin Guards"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 220,
+    "localizedTitles": {"en_US": "Swim Goggles"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 221,
+    "localizedTitles": {"en_US": "Swim Cap"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 222,
+    "localizedTitles": {"en_US": "Wetsuit"},
+    "embedding": [0.16512345, 0.13512345, 0.97612345]
+  },
+  {
+    "id": 223,
+    "localizedTitles": {"en_US": "Surfboard"},
+    "embedding": [0.18012345, 0.15012345, 0.97212345]
+  },
+  {
+    "id": 224,
+    "localizedTitles": {"en_US": "Kayak Paddle"},
+    "embedding": [0.17012345, 0.14012345, 0.97512345]
+  },
+  {
+    "id": 225,
+    "localizedTitles": {"en_US": "Life Jacket"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 226,
+    "localizedTitles": {"en_US": "Ski Poles"},
+    "embedding": [0.16512345, 0.13512345, 0.97612345]
+  },
+  {
+    "id": 227,
+    "localizedTitles": {"en_US": "Ski Boots"},
+    "embedding": [0.17512345, 0.14512345, 0.97412345]
+  },
+  {
+    "id": 228,
+    "localizedTitles": {"en_US": "Snowboard"},
+    "embedding": [0.18512345, 0.15512345, 0.97012345]
+  },
+  {
+    "id": 229,
+    "localizedTitles": {"en_US": "Ice Skates"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 230,
+    "localizedTitles": {"en_US": "Hockey Stick"},
+    "embedding": [0.13012345, 0.10012345, 0.98612345]
+  },
+  {
+    "id": 231,
+    "localizedTitles": {"en_US": "Hockey Puck"},
+    "embedding": [0.11012345, 0.08012345, 0.99012345]
+  },
+  {
+    "id": 232,
+    "localizedTitles": {"en_US": "Volleyball"},
+    "embedding": [0.09512345, 0.07512345, 0.99312345]
+  },
+  {
+    "id": 233,
+    "localizedTitles": {"en_US": "Football"},
+    "embedding": [0.12512345, 0.09512345, 0.98712345]
+  },
+  {
+    "id": 234,
+    "localizedTitles": {"en_US": "Rugby Ball"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 235,
+    "localizedTitles": {"en_US": "Cricket Bat"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 236,
+    "localizedTitles": {"en_US": "Badminton Racket"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 237,
+    "localizedTitles": {"en_US": "Shuttlecock"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 238,
+    "localizedTitles": {"en_US": "Ping Pong Paddle"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 239,
+    "localizedTitles": {"en_US": "Ping Pong Ball"},
+    "embedding": [0.10512345, 0.08012345, 0.99012345]
+  },
+  {
+    "id": 240,
+    "localizedTitles": {"en_US": "Archery Bow"},
+    "embedding": [0.17512345, 0.14512345, 0.97412345]
+  },
+  {
+    "id": 241,
+    "localizedTitles": {"en_US": "Arrow"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 242,
+    "localizedTitles": {"en_US": "Frisbee"},
+    "embedding": [0.11512345, 0.08512345, 0.99012345]
+  },
+  {
+    "id": 243,
+    "localizedTitles": {"en_US": "Lacrosse Stick"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 244,
+    "localizedTitles": {"en_US": "Polo Mallet"},
+    "embedding": [0.18012345, 0.15012345, 0.97212345]
+  },
+  {
+    "id": 245,
+    "localizedTitles": {"en_US": "Fencing Sword"},
+    "embedding": [0.17012345, 0.14012345, 0.97512345]
+  },
+  {
+    "id": 246,
+    "localizedTitles": {"en_US": "Gymnastics Bar"},
+    "embedding": [0.13012345, 0.10012345, 0.98612345]
+  },
+  {
+    "id": 247,
+    "localizedTitles": {"en_US": "Balance Beam"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 248,
+    "localizedTitles": {"en_US": "Trampoline"},
+    "embedding": [0.19012345, 0.16012345, 0.96812345]
+  },
+  {
+    "id": 249,
+    "localizedTitles": {"en_US": "Climbing Rope"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 250,
+    "localizedTitles": {"en_US": "Climbing Harness"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 251,
+    "localizedTitles": {"en_US": "Carabiner"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 252,
+    "localizedTitles": {"en_US": "Hiking Boots"},
+    "embedding": [0.17012345, 0.14012345, 0.97512345]
+  },
+  {
+    "id": 253,
+    "localizedTitles": {"en_US": "Hiking Poles"},
+    "embedding": [0.16512345, 0.13512345, 0.97612345]
+  },
+  {
+    "id": 254,
+    "localizedTitles": {"en_US": "Backpack"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 255,
+    "localizedTitles": {"en_US": "Sleeping Bag"},
+    "embedding": [0.18012345, 0.15012345, 0.97212345]
+  },
+  {
+    "id": 256,
+    "localizedTitles": {"en_US": "Tent"},
+    "embedding": [0.19012345, 0.16012345, 0.96812345]
+  },
+  {
+    "id": 257,
+    "localizedTitles": {"en_US": "Compass"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 258,
+    "localizedTitles": {"en_US": "Headlamp"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 259,
+    "localizedTitles": {"en_US": "Water Filter"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 260,
+    "localizedTitles": {"en_US": "Trekking Poles"},
+    "embedding": [0.17512345, 0.14512345, 0.97412345]
+  },
+  {
+    "id": 261,
+    "localizedTitles": {"en_US": "Fishing Rod"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 262,
+    "localizedTitles": {"en_US": "Fishing Reel"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 263,
+    "localizedTitles": {"en_US": "Fishing Lure"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 264,
+    "localizedTitles": {"en_US": "Tackle Box"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 265,
+    "localizedTitles": {"en_US": "Hunting Rifle"},
+    "embedding": [0.18512345, 0.15512345, 0.97012345]
+  },
+  {
+    "id": 266,
+    "localizedTitles": {"en_US": "Binoculars"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 267,
+    "localizedTitles": {"en_US": "Canoe"},
+    "embedding": [0.19512345, 0.16512345, 0.96612345]
+  },
+  {
+    "id": 268,
+    "localizedTitles": {"en_US": "Paddleboard"},
+    "embedding": [0.18012345, 0.15012345, 0.97212345]
+  },
+  {
+    "id": 269,
+    "localizedTitles": {"en_US": "Snorkel"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 270,
+    "localizedTitles": {"en_US": "Fins"},
+    "embedding": [0.13012345, 0.10012345, 0.98612345]
+  },
+  {
+    "id": 271,
+    "localizedTitles": {"en_US": "Scuba Tank"},
+    "embedding": [0.16512345, 0.13512345, 0.97612345]
+  },
+  {
+    "id": 272,
+    "localizedTitles": {"en_US": "Parachute"},
+    "embedding": [0.20012345, 0.17012345, 0.96412345]
+  },
+  {
+    "id": 273,
+    "localizedTitles": {"en_US": "Hang Glider"},
+    "embedding": [0.20512345, 0.17512345, 0.96212345]
+  },
+  {
+    "id": 274,
+    "localizedTitles": {"en_US": "Paraglider"},
+    "embedding": [0.19512345, 0.16512345, 0.96612345]
+  },
+  {
+    "id": 275,
+    "localizedTitles": {"en_US": "Roller Skates"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 276,
+    "localizedTitles": {"en_US": "Inline Skates"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 277,
+    "localizedTitles": {"en_US": "BMX Bike"},
+    "embedding": [0.17012345, 0.14012345, 0.97512345]
+  },
+  {
+    "id": 278,
+    "localizedTitles": {"en_US": "Mountain Bike"},
+    "embedding": [0.18012345, 0.15012345, 0.97212345]
+  },
+  {
+    "id": 279,
+    "localizedTitles": {"en_US": "Road Bike"},
+    "embedding": [0.17512345, 0.14512345, 0.97412345]
+  },
+  {
+    "id": 280,
+    "localizedTitles": {"en_US": "Cycling Helmet"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 281,
+    "localizedTitles": {"en_US": "Cycling Gloves"},
+    "embedding": [0.13012345, 0.10012345, 0.98612345]
+  },
+  {
+    "id": 282,
+    "localizedTitles": {"en_US": "Bike Lock"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 283,
+    "localizedTitles": {"en_US": "Bike Pump"},
+    "embedding": [0.11012345, 0.08012345, 0.99012345]
+  },
+  {
+    "id": 284,
+    "localizedTitles": {"en_US": "Bike Rack"},
+    "embedding": [0.13512345, 0.10512345, 0.98512345]
+  },
+  {
+    "id": 285,
+    "localizedTitles": {"en_US": "Martial Arts Belt"},
+    "embedding": [0.16512345, 0.13512345, 0.97612345]
+  },
+  {
+    "id": 286,
+    "localizedTitles": {"en_US": "Karate Uniform"},
+    "embedding": [0.15512345, 0.12512345, 0.98012345]
+  },
+  {
+    "id": 287,
+    "localizedTitles": {"en_US": "Judo Gi"},
+    "embedding": [0.14512345, 0.11512345, 0.98212345]
+  },
+  {
+    "id": 288,
+    "localizedTitles": {"en_US": "Wrestling Singlet"},
+    "embedding": [0.16012345, 0.13012345, 0.97812345]
+  },
+  {
+    "id": 289,
+    "localizedTitles": {"en_US": "Fencing Mask"},
+    "embedding": [0.17012345, 0.14012345, 0.97512345]
+  },
+  {
+    "id": 290,
+    "localizedTitles": {"en_US": "Dartboard"},
+    "embedding": [0.13012345, 0.10012345, 0.98612345]
+  },
+  {
+    "id": 291,
+    "localizedTitles": {"en_US": "Darts"},
+    "embedding": [0.12012345, 0.09012345, 0.98812345]
+  },
+  {
+    "id": 292,
+    "localizedTitles": {"en_US": "Billiard Cue"},
+    "embedding": [0.14012345, 0.11012345, 0.98412345]
+  },
+  {
+    "id": 293,
+    "localizedTitles": {"en_US": "Pool Ball"},
+    "embedding": [0.11012345, 0.08012345, 0.99012345]
+  },
+  {
+    "id": 294,
+    "localizedTitles": {"en_US": "Bowling Ball"},
+    "embedding": [0.10012345, 0.07012345, 0.99212345]
+  },
+  {
+    "id": 295,
+    "localizedTitles": {"en_US": "Bowling Pin"},
+    "embedding": [0.09012345, 0.07012345, 0.99312345]
+  },
+  {
+    "id": 296,
+    "localizedTitles": {"en_US": "Squash Racket"},
+    "embedding": [0.15012345, 0.12012345, 0.98212345]
+  },
+  {
+    "id": 297,
+    "localizedTitles": {"en_US": "Squash Ball"},
+    "embedding": [0.12512345, 0.09512345, 0.98712345]
+  },
+  {
+    "id": 298,
+    "localizedTitles": {"en_US": "Handball"},
+    "embedding": [0.11512345, 0.08512345, 0.99012345]
+  },
+  {
+    "id": 299,
+    "localizedTitles": {"en_US": "Netball"},
+    "embedding": [0.10512345, 0.07512345, 0.99112345]
+  },
+  {
+    "id": 300,
+    "localizedTitles": {"en_US": "T-Shirt"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 301,
+    "localizedTitles": {"en_US": "Jeans"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 302,
+    "localizedTitles": {"en_US": "Jacket"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 303,
+    "localizedTitles": {"en_US": "Dress"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 304,
+    "localizedTitles": {"en_US": "Suit"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 305,
+    "localizedTitles": {"en_US": "Sweater"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 306,
+    "localizedTitles": {"en_US": "Hoodie"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 307,
+    "localizedTitles": {"en_US": "Shorts"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 308,
+    "localizedTitles": {"en_US": "Skirt"},
+    "embedding": [0.53735027, 0.61735027, 0.57735027]
+  },
+  {
+    "id": 309,
+    "localizedTitles": {"en_US": "Coat"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 310,
+    "localizedTitles": {"en_US": "Scarf"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 311,
+    "localizedTitles": {"en_US": "Hat"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 312,
+    "localizedTitles": {"en_US": "Gloves"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 313,
+    "localizedTitles": {"en_US": "Boots"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 314,
+    "localizedTitles": {"en_US": "Sneakers"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 315,
+    "localizedTitles": {"en_US": "Sandals"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 316,
+    "localizedTitles": {"en_US": "Heels"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 317,
+    "localizedTitles": {"en_US": "Belt"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 318,
+    "localizedTitles": {"en_US": "Tie"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 319,
+    "localizedTitles": {"en_US": "Socks"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 320,
+    "localizedTitles": {"en_US": "Underwear"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 321,
+    "localizedTitles": {"en_US": "Pajamas"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 322,
+    "localizedTitles": {"en_US": "Swimsuit"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 323,
+    "localizedTitles": {"en_US": "Raincoat"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 324,
+    "localizedTitles": {"en_US": "Vest"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 325,
+    "localizedTitles": {"en_US": "Cardigan"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 326,
+    "localizedTitles": {"en_US": "Blazer"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 327,
+    "localizedTitles": {"en_US": "Polo Shirt"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 328,
+    "localizedTitles": {"en_US": "Leggings"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 329,
+    "localizedTitles": {"en_US": "Tracksuit"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 330,
+    "localizedTitles": {"en_US": "Sunglasses"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 331,
+    "localizedTitles": {"en_US": "Watch"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 332,
+    "localizedTitles": {"en_US": "Necklace"},
+    "embedding": [0.53735027, 0.61735027, 0.57735027]
+  },
+  {
+    "id": 333,
+    "localizedTitles": {"en_US": "Bracelet"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 334,
+    "localizedTitles": {"en_US": "Earrings"},
+    "embedding": [0.52735027, 0.62735027, 0.57735027]
+  },
+  {
+    "id": 335,
+    "localizedTitles": {"en_US": "Ring"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 336,
+    "localizedTitles": {"en_US": "Handbag"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 337,
+    "localizedTitles": {"en_US": "Wallet"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 338,
+    "localizedTitles": {"en_US": "Umbrella"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 339,
+    "localizedTitles": {"en_US": "Luggage"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 340,
+    "localizedTitles": {"en_US": "Sofa"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 341,
+    "localizedTitles": {"en_US": "Armchair"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 342,
+    "localizedTitles": {"en_US": "Coffee Table"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 343,
+    "localizedTitles": {"en_US": "Dining Table"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 344,
+    "localizedTitles": {"en_US": "Dining Chair"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 345,
+    "localizedTitles": {"en_US": "Bed Frame"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 346,
+    "localizedTitles": {"en_US": "Mattress"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 347,
+    "localizedTitles": {"en_US": "Pillow"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 348,
+    "localizedTitles": {"en_US": "Blanket"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 349,
+    "localizedTitles": {"en_US": "Wardrobe"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 350,
+    "localizedTitles": {"en_US": "Bookshelf"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 351,
+    "localizedTitles": {"en_US": "Desk"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 352,
+    "localizedTitles": {"en_US": "Office Chair"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 353,
+    "localizedTitles": {"en_US": "Filing Cabinet"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 354,
+    "localizedTitles": {"en_US": "Curtains"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 355,
+    "localizedTitles": {"en_US": "Rug"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 356,
+    "localizedTitles": {"en_US": "Floor Lamp"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 357,
+    "localizedTitles": {"en_US": "Ceiling Fan"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 358,
+    "localizedTitles": {"en_US": "Mirror"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 359,
+    "localizedTitles": {"en_US": "Picture Frame"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 360,
+    "localizedTitles": {"en_US": "Vase"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 361,
+    "localizedTitles": {"en_US": "Plant Pot"},
+    "embedding": [0.52235027, 0.62235027, 0.58235027]
+  },
+  {
+    "id": 362,
+    "localizedTitles": {"en_US": "Candle"},
+    "embedding": [0.53735027, 0.61735027, 0.57735027]
+  },
+  {
+    "id": 363,
+    "localizedTitles": {"en_US": "Clock"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 364,
+    "localizedTitles": {"en_US": "Alarm Clock"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 365,
+    "localizedTitles": {"en_US": "Nightstand"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 366,
+    "localizedTitles": {"en_US": "Dresser"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 367,
+    "localizedTitles": {"en_US": "Ottoman"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 368,
+    "localizedTitles": {"en_US": "Bench"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 369,
+    "localizedTitles": {"en_US": "Stool"},
+    "embedding": [0.58235027, 0.56235027, 0.58235027]
+  },
+  {
+    "id": 370,
+    "localizedTitles": {"en_US": "Refrigerator"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 371,
+    "localizedTitles": {"en_US": "Microwave"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 372,
+    "localizedTitles": {"en_US": "Oven"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 373,
+    "localizedTitles": {"en_US": "Stove"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 374,
+    "localizedTitles": {"en_US": "Dishwasher"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 375,
+    "localizedTitles": {"en_US": "Washing Machine"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 376,
+    "localizedTitles": {"en_US": "Dryer"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 377,
+    "localizedTitles": {"en_US": "Vacuum Cleaner"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 378,
+    "localizedTitles": {"en_US": "Iron"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 379,
+    "localizedTitles": {"en_US": "Ironing Board"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 380,
+    "localizedTitles": {"en_US": "Toaster"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 381,
+    "localizedTitles": {"en_US": "Blender"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 382,
+    "localizedTitles": {"en_US": "Coffee Maker"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 383,
+    "localizedTitles": {"en_US": "Kettle"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 384,
+    "localizedTitles": {"en_US": "Food Processor"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 385,
+    "localizedTitles": {"en_US": "Air Fryer"},
+    "embedding": [0.61235027, 0.53235027, 0.58235027]
+  },
+  {
+    "id": 386,
+    "localizedTitles": {"en_US": "Rice Cooker"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 387,
+    "localizedTitles": {"en_US": "Slow Cooker"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 388,
+    "localizedTitles": {"en_US": "Pressure Cooker"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 389,
+    "localizedTitles": {"en_US": "Frying Pan"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 390,
+    "localizedTitles": {"en_US": "Saucepan"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 391,
+    "localizedTitles": {"en_US": "Wok"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 392,
+    "localizedTitles": {"en_US": "Cutting Board"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 393,
+    "localizedTitles": {"en_US": "Chef Knife"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 394,
+    "localizedTitles": {"en_US": "Bread Knife"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 395,
+    "localizedTitles": {"en_US": "Peeler"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 396,
+    "localizedTitles": {"en_US": "Grater"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 397,
+    "localizedTitles": {"en_US": "Colander"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 398,
+    "localizedTitles": {"en_US": "Mixing Bowl"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 399,
+    "localizedTitles": {"en_US": "Baking Tray"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 400,
+    "localizedTitles": {"en_US": "Plate"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 401,
+    "localizedTitles": {"en_US": "Bowl"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 402,
+    "localizedTitles": {"en_US": "Cup"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 403,
+    "localizedTitles": {"en_US": "Mug"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 404,
+    "localizedTitles": {"en_US": "Glass"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 405,
+    "localizedTitles": {"en_US": "Fork"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 406,
+    "localizedTitles": {"en_US": "Spoon"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 407,
+    "localizedTitles": {"en_US": "Knife"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 408,
+    "localizedTitles": {"en_US": "Chopsticks"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 409,
+    "localizedTitles": {"en_US": "Spatula"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 410,
+    "localizedTitles": {"en_US": "Ladle"},
+    "embedding": [0.58235027, 0.56235027, 0.58235027]
+  },
+  {
+    "id": 411,
+    "localizedTitles": {"en_US": "Tongs"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 412,
+    "localizedTitles": {"en_US": "Whisk"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 413,
+    "localizedTitles": {"en_US": "Rolling Pin"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 414,
+    "localizedTitles": {"en_US": "Measuring Cup"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 415,
+    "localizedTitles": {"en_US": "Kitchen Scale"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 416,
+    "localizedTitles": {"en_US": "Thermometer"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 417,
+    "localizedTitles": {"en_US": "Can Opener"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 418,
+    "localizedTitles": {"en_US": "Corkscrew"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 419,
+    "localizedTitles": {"en_US": "Bottle Opener"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 420,
+    "localizedTitles": {"en_US": "Shampoo"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 421,
+    "localizedTitles": {"en_US": "Conditioner"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 422,
+    "localizedTitles": {"en_US": "Body Wash"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 423,
+    "localizedTitles": {"en_US": "Soap"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 424,
+    "localizedTitles": {"en_US": "Toothbrush"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 425,
+    "localizedTitles": {"en_US": "Toothpaste"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 426,
+    "localizedTitles": {"en_US": "Dental Floss"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 427,
+    "localizedTitles": {"en_US": "Mouthwash"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 428,
+    "localizedTitles": {"en_US": "Razor"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 429,
+    "localizedTitles": {"en_US": "Shaving Cream"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 430,
+    "localizedTitles": {"en_US": "Deodorant"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 431,
+    "localizedTitles": {"en_US": "Perfume"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 432,
+    "localizedTitles": {"en_US": "Lotion"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 433,
+    "localizedTitles": {"en_US": "Sunscreen"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 434,
+    "localizedTitles": {"en_US": "Lipstick"},
+    "embedding": [0.52235027, 0.62235027, 0.58235027]
+  },
+  {
+    "id": 435,
+    "localizedTitles": {"en_US": "Foundation"},
+    "embedding": [0.53735027, 0.61735027, 0.57735027]
+  },
+  {
+    "id": 436,
+    "localizedTitles": {"en_US": "Mascara"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 437,
+    "localizedTitles": {"en_US": "Eyeliner"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 438,
+    "localizedTitles": {"en_US": "Eyeshadow"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 439,
+    "localizedTitles": {"en_US": "Blush"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 440,
+    "localizedTitles": {"en_US": "Nail Polish"},
+    "embedding": [0.52235027, 0.62235027, 0.58235027]
+  },
+  {
+    "id": 441,
+    "localizedTitles": {"en_US": "Hairbrush"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 442,
+    "localizedTitles": {"en_US": "Hair Dryer"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 443,
+    "localizedTitles": {"en_US": "Hair Straightener"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 444,
+    "localizedTitles": {"en_US": "Curling Iron"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 445,
+    "localizedTitles": {"en_US": "Hair Tie"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 446,
+    "localizedTitles": {"en_US": "Bobby Pin"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 447,
+    "localizedTitles": {"en_US": "Cotton Swabs"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 448,
+    "localizedTitles": {"en_US": "Tweezers"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 449,
+    "localizedTitles": {"en_US": "Nail Clippers"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 450,
+    "localizedTitles": {"en_US": "Pencil"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 451,
+    "localizedTitles": {"en_US": "Pen"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 452,
+    "localizedTitles": {"en_US": "Marker"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 453,
+    "localizedTitles": {"en_US": "Highlighter"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 454,
+    "localizedTitles": {"en_US": "Eraser"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 455,
+    "localizedTitles": {"en_US": "Ruler"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 456,
+    "localizedTitles": {"en_US": "Scissors"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 457,
+    "localizedTitles": {"en_US": "Stapler"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 458,
+    "localizedTitles": {"en_US": "Tape"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 459,
+    "localizedTitles": {"en_US": "Glue"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 460,
+    "localizedTitles": {"en_US": "Notebook"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 461,
+    "localizedTitles": {"en_US": "Binder"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 462,
+    "localizedTitles": {"en_US": "Folder"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 463,
+    "localizedTitles": {"en_US": "Sticky Notes"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 464,
+    "localizedTitles": {"en_US": "Whiteboard"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 465,
+    "localizedTitles": {"en_US": "Crayons"},
+    "embedding": [0.54235027, 0.60235027, 0.58235027]
+  },
+  {
+    "id": 466,
+    "localizedTitles": {"en_US": "Watercolor Set"},
+    "embedding": [0.53235027, 0.61235027, 0.58235027]
+  },
+  {
+    "id": 467,
+    "localizedTitles": {"en_US": "Paintbrush"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 468,
+    "localizedTitles": {"en_US": "Canvas"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 469,
+    "localizedTitles": {"en_US": "Sketchbook"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 470,
+    "localizedTitles": {"en_US": "Guitar"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 471,
+    "localizedTitles": {"en_US": "Piano"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 472,
+    "localizedTitles": {"en_US": "Violin"},
+    "embedding": [0.54735027, 0.60735027, 0.57735027]
+  },
+  {
+    "id": 473,
+    "localizedTitles": {"en_US": "Drums"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 474,
+    "localizedTitles": {"en_US": "Trumpet"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 475,
+    "localizedTitles": {"en_US": "Saxophone"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 476,
+    "localizedTitles": {"en_US": "Flute"},
+    "embedding": [0.57235027, 0.57235027, 0.58235027]
+  },
+  {
+    "id": 477,
+    "localizedTitles": {"en_US": "Ukulele"},
+    "embedding": [0.56235027, 0.58235027, 0.58235027]
+  },
+  {
+    "id": 478,
+    "localizedTitles": {"en_US": "Bass Guitar"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 479,
+    "localizedTitles": {"en_US": "Cello"},
+    "embedding": [0.55235027, 0.59235027, 0.58235027]
+  },
+  {
+    "id": 480,
+    "localizedTitles": {"en_US": "Harp"},
+    "embedding": [0.53735027, 0.61735027, 0.57735027]
+  },
+  {
+    "id": 481,
+    "localizedTitles": {"en_US": "Harmonica"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 482,
+    "localizedTitles": {"en_US": "Accordion"},
+    "embedding": [0.61235027, 0.53235027, 0.58235027]
+  },
+  {
+    "id": 483,
+    "localizedTitles": {"en_US": "Banjo"},
+    "embedding": [0.60735027, 0.53735027, 0.58235027]
+  },
+  {
+    "id": 484,
+    "localizedTitles": {"en_US": "Mandolin"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 485,
+    "localizedTitles": {"en_US": "DJ Controller"},
+    "embedding": [0.62235027, 0.52235027, 0.58235027]
+  },
+  {
+    "id": 486,
+    "localizedTitles": {"en_US": "Turntable"},
+    "embedding": [0.61735027, 0.52735027, 0.58235027]
+  },
+  {
+    "id": 487,
+    "localizedTitles": {"en_US": "MIDI Keyboard"},
+    "embedding": [0.63235027, 0.51235027, 0.58235027]
+  },
+  {
+    "id": 488,
+    "localizedTitles": {"en_US": "Audio Interface"},
+    "embedding": [0.62735027, 0.51735027, 0.58235027]
+  },
+  {
+    "id": 489,
+    "localizedTitles": {"en_US": "Studio Monitor"},
+    "embedding": [0.64235027, 0.50235027, 0.58235027]
+  },
+  {
+    "id": 490,
+    "localizedTitles": {"en_US": "Guitar Pick"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 491,
+    "localizedTitles": {"en_US": "Guitar Strap"},
+    "embedding": [0.58235027, 0.57235027, 0.57235027]
+  },
+  {
+    "id": 492,
+    "localizedTitles": {"en_US": "Guitar Tuner"},
+    "embedding": [0.59235027, 0.55235027, 0.58235027]
+  },
+  {
+    "id": 493,
+    "localizedTitles": {"en_US": "Guitar Amp"},
+    "embedding": [0.60235027, 0.54235027, 0.58235027]
+  },
+  {
+    "id": 494,
+    "localizedTitles": {"en_US": "Sheet Music"},
+    "embedding": [0.55735027, 0.59735027, 0.57735027]
+  },
+  {
+    "id": 495,
+    "localizedTitles": {"en_US": "Music Stand"},
+    "embedding": [0.56735027, 0.58735027, 0.57735027]
+  },
+  {
+    "id": 496,
+    "localizedTitles": {"en_US": "Metronome"},
+    "embedding": [0.57735027, 0.57735027, 0.57735027]
+  },
+  {
+    "id": 497,
+    "localizedTitles": {"en_US": "Drum Sticks"},
+    "embedding": [0.58735027, 0.56735027, 0.57735027]
+  },
+  {
+    "id": 498,
+    "localizedTitles": {"en_US": "Cymbal"},
+    "embedding": [0.59735027, 0.55735027, 0.57735027]
+  },
+  {
+    "id": 499,
+    "localizedTitles": {"en_US": "Capo"},
+    "embedding": [0.60735027, 0.53735027, 0.58235027]
+  },
+  {
+    "id": 500,
+    "localizedTitles": {"en_US": "Hammer"},
+    "embedding": [0.70710678, 0.70710678, 0.00000000]
+  },
+  {
+    "id": 501,
+    "localizedTitles": {"en_US": "Screwdriver"},
+    "embedding": [0.71710678, 0.69710678, 0.00000000]
+  },
+  {
+    "id": 502,
+    "localizedTitles": {"en_US": "Wrench"},
+    "embedding": [0.72710678, 0.68610678, 0.00000000]
+  },
+  {
+    "id": 503,
+    "localizedTitles": {"en_US": "Pliers"},
+    "embedding": [0.70210678, 0.71210678, 0.00000000]
+  },
+  {
+    "id": 504,
+    "localizedTitles": {"en_US": "Drill"},
+    "embedding": [0.73710678, 0.67510678, 0.00000000]
+  },
+  {
+    "id": 505,
+    "localizedTitles": {"en_US": "Saw"},
+    "embedding": [0.74710678, 0.66410678, 0.00000000]
+  },
+  {
+    "id": 506,
+    "localizedTitles": {"en_US": "Tape Measure"},
+    "embedding": [0.69710678, 0.71710678, 0.00000000]
+  },
+  {
+    "id": 507,
+    "localizedTitles": {"en_US": "Level"},
+    "embedding": [0.68710678, 0.72610678, 0.00000000]
+  },
+  {
+    "id": 508,
+    "localizedTitles": {"en_US": "Chisel"},
+    "embedding": [0.75710678, 0.65310678, 0.00000000]
+  },
+  {
+    "id": 509,
+    "localizedTitles": {"en_US": "Nail Gun"},
+    "embedding": [0.76710678, 0.64110678, 0.00000000]
+  },
+  {
+    "id": 510,
+    "localizedTitles": {"en_US": "Sandpaper"},
+    "embedding": [0.67710678, 0.73610678, 0.00000000]
+  },
+  {
+    "id": 511,
+    "localizedTitles": {"en_US": "Paint Roller"},
+    "embedding": [0.66710678, 0.74510678, 0.00000000]
+  },
+  {
+    "id": 512,
+    "localizedTitles": {"en_US": "Paint Brush"},
+    "embedding": [0.65710678, 0.75410678, 0.00000000]
+  },
+  {
+    "id": 513,
+    "localizedTitles": {"en_US": "Paint Can"},
+    "embedding": [0.64710678, 0.76210678, 0.00000000]
+  },
+  {
+    "id": 514,
+    "localizedTitles": {"en_US": "Caulk Gun"},
+    "embedding": [0.77710678, 0.62910678, 0.00000000]
+  },
+  {
+    "id": 515,
+    "localizedTitles": {"en_US": "Utility Knife"},
+    "embedding": [0.78710678, 0.61710678, 0.00000000]
+  },
+  {
+    "id": 516,
+    "localizedTitles": {"en_US": "Stud Finder"},
+    "embedding": [0.79710678, 0.60410678, 0.00000000]
+  },
+  {
+    "id": 517,
+    "localizedTitles": {"en_US": "Wire Stripper"},
+    "embedding": [0.80710678, 0.59110678, 0.00000000]
+  },
+  {
+    "id": 518,
+    "localizedTitles": {"en_US": "Voltage Tester"},
+    "embedding": [0.81710678, 0.57610678, 0.00000000]
+  },
+  {
+    "id": 519,
+    "localizedTitles": {"en_US": "Pipe Wrench"},
+    "embedding": [0.82710678, 0.56210678, 0.00000000]
+  },
+  {
+    "id": 520,
+    "localizedTitles": {"en_US": "Plunger"},
+    "embedding": [0.63710678, 0.77010678, 0.00000000]
+  },
+  {
+    "id": 521,
+    "localizedTitles": {"en_US": "Mop"},
+    "embedding": [0.62710678, 0.77910678, 0.00000000]
+  },
+  {
+    "id": 522,
+    "localizedTitles": {"en_US": "Broom"},
+    "embedding": [0.61710678, 0.78710678, 0.00000000]
+  },
+  {
+    "id": 523,
+    "localizedTitles": {"en_US": "Dustpan"},
+    "embedding": [0.60710678, 0.79510678, 0.00000000]
+  },
+  {
+    "id": 524,
+    "localizedTitles": {"en_US": "Bucket"},
+    "embedding": [0.59710678, 0.80210678, 0.00000000]
+  },
+  {
+    "id": 525,
+    "localizedTitles": {"en_US": "Sponge"},
+    "embedding": [0.58710678, 0.80910678, 0.00000000]
+  },
+  {
+    "id": 526,
+    "localizedTitles": {"en_US": "Cleaning Spray"},
+    "embedding": [0.57710678, 0.81610678, 0.00000000]
+  },
+  {
+    "id": 527,
+    "localizedTitles": {"en_US": "Dish Soap"},
+    "embedding": [0.56710678, 0.82310678, 0.00000000]
+  },
+  {
+    "id": 528,
+    "localizedTitles": {"en_US": "Laundry Detergent"},
+    "embedding": [0.55710678, 0.83010678, 0.00000000]
+  },
+  {
+    "id": 529,
+    "localizedTitles": {"en_US": "Fabric Softener"},
+    "embedding": [0.54710678, 0.83710678, 0.00000000]
+  },
+  {
+    "id": 530,
+    "localizedTitles": {"en_US": "Trash Bag"},
+    "embedding": [0.53710678, 0.84310678, 0.00000000]
+  },
+  {
+    "id": 531,
+    "localizedTitles": {"en_US": "Trash Can"},
+    "embedding": [0.52710678, 0.84910678, 0.00000000]
+  },
+  {
+    "id": 532,
+    "localizedTitles": {"en_US": "Recycling Bin"},
+    "embedding": [0.51710678, 0.85510678, 0.00000000]
+  },
+  {
+    "id": 533,
+    "localizedTitles": {"en_US": "Paper Towels"},
+    "embedding": [0.50710678, 0.86110678, 0.00000000]
+  },
+  {
+    "id": 534,
+    "localizedTitles": {"en_US": "Toilet Paper"},
+    "embedding": [0.49710678, 0.86710678, 0.00000000]
+  },
+  {
+    "id": 535,
+    "localizedTitles": {"en_US": "Tissue Box"},
+    "embedding": [0.48710678, 0.87310678, 0.00000000]
+  },
+  {
+    "id": 536,
+    "localizedTitles": {"en_US": "Air Freshener"},
+    "embedding": [0.47710678, 0.87910678, 0.00000000]
+  },
+  {
+    "id": 537,
+    "localizedTitles": {"en_US": "Toilet Brush"},
+    "embedding": [0.46710678, 0.88410678, 0.00000000]
+  },
+  {
+    "id": 538,
+    "localizedTitles": {"en_US": "Shower Curtain"},
+    "embedding": [0.45710678, 0.88910678, 0.00000000]
+  }
+]
