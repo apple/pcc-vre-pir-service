@@ -4,19 +4,12 @@
       "name": "pcc-agent",
       "darwinInitOverrides": {
         "local-host-name": "pcc-agent",
-        "preferences": [
-          {
-            "application_id": "com.apple.cloudos.cb_jobhelper",
-            "key": "EnablePIR",
-            "value": false
-          }
-        ],
         "secure-config": {
           "com.apple.cloudos.PCCAgentKit.RemoteTools": "PIRTool",
           "com.apple.cloudboard.skipMultiAppValidations": true
         }
       },
-      "release": "49183"
+      "release": "REPLACE_WITH_PCC_AGENT_RELEASE_INDEX"
     },
     {
       "name": "pcc-agent-worker",
@@ -33,7 +26,7 @@
           "com.apple.cloudboard.cb_bridged.pirService.serviceURL": "http://192.168.64.1:5555"
         }
       },
-      "release": "49144"
+      "release": "REPLACE_WITH_PCC_AGENT_WORKER_RELEASE_INDEX"
     }
   ]
 }

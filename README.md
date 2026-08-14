@@ -57,7 +57,7 @@ cluster the query targets to this service:
 
 ## Architecture
 
-VREPIRService is a single command-line tool, `vrepir`, with three subcommands,
+VREPIRService is a single command-line tool, `vrepir`, with two subcommands,
 plus one processing tool sourced from `swift-homomorphic-encryption`.
 
 - **`vrepir process`**: Turns raw entity documents (embeddings plus metadata)
@@ -67,8 +67,6 @@ plus one processing tool sourced from `swift-homomorphic-encryption`.
 - **`vrepir serve`**: Loads the processed PIR database shards and answers
   `EncryptedVisualSearch` gRPC requests. Each request carries a SimplePIR query
   targeting a shard; the server computes the homomorphic response and returns it.
-- **`vrepir test`**: Emits a synthetic dataset as JSON, useful as sample input
-  to `vrepir process`.
 - **`SimplePIRProcessDatabase`** (from `swift-homomorphic-encryption`):
   Transforms the clustered database into PIR-ready shards and hints.
 
@@ -180,21 +178,52 @@ First, put `pccvre` on your path:
 echo "/System/Library/SecurityResearch/usr/bin" | sudo tee /etc/paths.d/20-vre
 ```
 
-This service needs two releases: a `PCC Agent` release for the `pcc-agent`
-instance and a `PCC Agent Worker` release for the `pcc-agent-worker` instance.
-The commands below use the release indices already pinned in
-`vre-configuration.json`. Transparency-log release indices expire, so if a
-download fails, run `pccvre release list`, find the newest `(downloadable)`
-entries for `PCC Agent` and `PCC Agent Worker`, and update both the commands
-below and the two `release` fields in `vre-configuration.json` to match.
+Second, make sure that you agree to the license, which can be done by running `pccvre` using sudo.
+On first launch it will display the license.
+```sh
+sudo pccvre
+```
+
+This service needs two releases from the transparency log: a **PCC Agent**
+release for the `pcc-agent` instance, and a **PCC Agent Worker** release for
+the `pcc-agent-worker` instance. Transparency-log release indices are not
+stable identifiers — new builds are published continuously and old ones age
+out of `pccvre`'s downloadable set — so any index pinned in this README would
+be out of date by the time you read it. Look up the current downloadable
+index for each application name instead:
+
+```sh
+pccvre release list --json --count 40 \
+  | jq -r '.[] | select(.downloadable and
+      (.applicationName == "PCC Agent" or .applicationName == "PCC Agent Worker")) |
+      "\(.index)\t\(.applicationName)\t\(.buildVersion)"' \
+  | sort -rn
+```
+
+Take the highest (newest) index listed for each application name and export them:
+
+```sh
+export PCC_AGENT_RELEASE=<newest PCC Agent index from above>
+export PCC_AGENT_WORKER_RELEASE=<newest PCC Agent Worker index from above>
+```
+
+`vre-configuration.json.example` ships with placeholder `release` fields. Fill
+in the indices you just found and write the result to `vre-configuration.json`
+before running `pccvre workload create`:
+
+```sh
+jq --arg a "$PCC_AGENT_RELEASE" --arg w "$PCC_AGENT_WORKER_RELEASE" \
+  '.instances |= map(.release = {"pcc-agent": $a, "pcc-agent-worker": $w}[.name])' \
+  vre-configuration.json.example > vre-configuration.json
+```
 
 Download releases, configure instances, build the tools, process an index,
 and package the assets:
 
 ```sh
 # Download PCC releases
-pccvre release download --release 49183
-pccvre release download --release 49144
+pccvre release download --release "$PCC_AGENT_RELEASE"
+pccvre release download --release "$PCC_AGENT_WORKER_RELEASE"
 # Configure the instances
 pccvre workload create --configuration vre-configuration.json
 # build executables
@@ -236,8 +265,13 @@ the PIR config; `--host` should match your VRE bridge address):
 Make a VLU request through the trusted proxy:
 
 ```sh
-# make a VLU request
-pccvre instance invoke --name pcc-agent tie-vre-cli --payload '{"echo_agent_request": { "msg": "{\"index\":\"encryptedVluArt\", \"embedding\": [0, 1, 0]}" }}' --tie-proxy pcc-agent.local --hostname pcc-agent-worker.local --workload-parameters '{"inference-id": ["com.apple.fm.service.vlu.v1"]}' --parse-as-generate-request false --request-bypass false
+pccvre instance invoke --name pcc-agent tie-vre-cli \
+  --payload '{"echo_agent_request": { "msg": "{\"index\":\"encryptedVluArt\", \"embedding\": [0, 1, 0]}" }}' \
+  --tie-proxy pcc-agent.local \
+  --hostname pcc-agent-worker.local \
+  --workload-parameters '{"inference-id": ["com.apple.fm.service.vlu.v1"]}' \
+  --parse-as-generate-request false \
+  --request-bypass false
 ```
 
 ## Troubleshooting
