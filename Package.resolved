@@ -1,5 +1,5 @@
 {
-  "originHash" : "f44c8168e2b3e638fc2ba56e52d1f74e23b121931bba9d813e2f9a837e9ed33a",
+  "originHash" : "230b9fb2c2e78b14632aa9dd2cc6f8a8da6c9ce6d083daa32e768e19a0753f44",
   "pins" : [
     {
       "identity" : "grpc-swift-2",
@@ -105,7 +105,6 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-homomorphic-encryption.git",
       "state" : {
-        "branch" : "main",
         "revision" : "68675885a9b1ca4229014ce50ce651c3f369b8c6"
       }
     },
