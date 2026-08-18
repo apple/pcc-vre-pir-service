@@ -63,10 +63,13 @@ plus one processing tool sourced from `swift-homomorphic-encryption`.
 - **`vrepir process`**: Turns raw entity documents (embeddings plus metadata)
   into a clustered database. It runs k-means clustering to build an embedding
   codebook of cluster centroids, groups documents into clusters, and emits the
-  cluster contents, the codebook, and a per-entity asset-metadata table.
+  cluster contents, the codebook, a per-entity asset-metadata table, the stash
+  of oversized clusters, and the `SimplePIRProcessDatabase` configuration.
 - **`vrepir serve`**: Loads the processed PIR database shards and answers
   `EncryptedVisualSearch` gRPC requests. Each request carries a SimplePIR query
   targeting a shard; the server computes the homomorphic response and returns it.
+  It also answers the `EncryptedVisualSearchConfig` RPC that `cb_bridged` calls
+  on an interval to hold its connection open, and logs a line per request.
 - **`SimplePIRProcessDatabase`** (from `swift-homomorphic-encryption`):
   Transforms the clustered database into PIR-ready shards and hints.
 
@@ -80,7 +83,8 @@ VLU index:
 | `database.binpb` | `vrepir process` | Clustered entity database (one keyword-database row per cluster) |
 | `embedding_codebook.binpb` | `vrepir process` | Cluster centroids `cb_jobhelper` uses for cluster selection |
 | `asset_metadata.bin` | `vrepir process` | Per-entity metadata (for example, localized titles) for resolving the winning entries |
-| `big_clusters.bin` | `vrepir process` | Oversized clusters served outside the PIR database |
+| `big_clusters.bin` | `vrepir process` | Clusters serializing larger than `--max-cluster-size`, served outside the PIR database; empty unless that option is set |
+| `config.json` | `vrepir process` | `SimplePIRProcessDatabase` configuration, including the shard count from `--shards` |
 | `pir-db-*.bin`, `pir-db-*.hint.bin` | `SimplePIRProcessDatabase` | PIR database shards and their hints |
 | `pir-db.config.binpb` | `SimplePIRProcessDatabase` | PIR parameters shared by this service and `cb_jobhelper` |
 
@@ -100,9 +104,9 @@ so a request's asset dependencies stay auditable.
 The VRE doesn't run `cloudassetdownloaderd`. VREPIRService substitutes a
 cryptex for cloud asset distribution: in [Getting started](#getting-started),
 you package `asset_metadata.bin`, `big_clusters.bin`,
-`embedding_codebook.binpb`, and `pir-db.config.binpb` into a cryptex and add
-it to the `pcc-agent-worker` instance directly, rather than publishing them for
-`cloudassetdownloaderd` to fetch.
+`embedding_codebook.binpb`, `pir-db-*.hint.bin`, and `pir-db.config.binpb` into
+a cryptex and add it to the `pcc-agent-worker` instance directly, rather than
+publishing them for `cloudassetdownloaderd` to fetch.
 
 ## The database pipeline
 
@@ -113,7 +117,12 @@ PIR-ready database:
    each an embedding, an id, and localized titles — and clusters them. The
    result is a keyword database keyed by cluster id, where each value is the
    serialized set of embeddings and ranking signals for that cluster. It also
-   writes the codebook and the asset-metadata table.
+   writes the codebook, the asset-metadata table, and the
+   `SimplePIRProcessDatabase` configuration. Clusters serializing larger than
+   `--max-cluster-size` (for example `2KiB`) go to the stash instead, keeping
+   their cluster index so the remaining indices stay aligned with the codebook
+   centroids. Because the PIR chunk size follows the largest database entry,
+   stashing a few outsized clusters keeps every hint and query small.
 2. **Process for PIR:** `SimplePIRProcessDatabase` consumes the clustered
    database and produces the SimplePIR shards, hints, and configuration. It also
    verifies that a retrieved value round-trips correctly before you use the
@@ -233,7 +242,7 @@ swift build -c release --product SimplePIRProcessDatabase
 mkdir output
 ./.build/release/vrepir process input.json art output
 # Process database
-./.build/release/SimplePIRProcessDatabase config.json
+./.build/release/SimplePIRProcessDatabase output/config.json
 # copy assets and create a cryptex out of them
 mkdir -p CipherMLAssets/encryptedVluArt
 cp output/{asset_metadata.bin,big_clusters.bin,embedding_codebook.binpb,pir-db-*.hint.bin,pir-db.config.binpb} CipherMLAssets/encryptedVluArt

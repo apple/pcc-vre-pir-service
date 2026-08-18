@@ -15,6 +15,7 @@
 internal import Foundation
 
 enum ProcessError: Error, Equatable {
+    case allClustersStashed(maxClusterSize: ByteCount, smallestClusterSize: ByteCount)
     case embeddingDimensionOutOfRange(dimension: Int)
     case identifierOutOfRange(id: Int, field: String)
 }
@@ -22,6 +23,11 @@ enum ProcessError: Error, Equatable {
 extension ProcessError: LocalizedError {
     var errorDescription: String? {
         switch self {
+        case let .allClustersStashed(maxClusterSize, smallestClusterSize):
+            """
+            'max-cluster-size' of \(maxClusterSize) stashed every cluster, leaving nothing to serve \
+            over PIR; the smallest cluster holding documents is \(smallestClusterSize)
+            """
         case let .embeddingDimensionOutOfRange(dimension):
             "Embedding dimension \(dimension) is out of range"
         case let .identifierOutOfRange(id, field):
