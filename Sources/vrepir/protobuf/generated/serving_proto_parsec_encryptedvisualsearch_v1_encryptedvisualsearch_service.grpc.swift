@@ -46,9 +46,22 @@ internal enum Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch: Senda
                 method: "EncryptedVisualSearch"
             )
         }
+        /// Namespace for "EncryptedVisualSearchConfig" metadata.
+        internal enum EncryptedVisualSearchConfig: Sendable {
+            /// Request type for "EncryptedVisualSearchConfig".
+            internal typealias Input = Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest
+            /// Response type for "EncryptedVisualSearchConfig".
+            internal typealias Output = Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse
+            /// Descriptor for "EncryptedVisualSearchConfig".
+            internal static let descriptor = GRPCCore.MethodDescriptor(
+                service: GRPCCore.ServiceDescriptor(fullyQualifiedService: "apple.parsec.encryptedvisualsearch.v1.EncryptedVisualSearch"),
+                method: "EncryptedVisualSearchConfig"
+            )
+        }
         /// Descriptors for all methods in the "apple.parsec.encryptedvisualsearch.v1.EncryptedVisualSearch" service.
         internal static let descriptors: [GRPCCore.MethodDescriptor] = [
-            EncryptedVisualSearch.descriptor
+            EncryptedVisualSearch.descriptor,
+            EncryptedVisualSearchConfig.descriptor
         ]
     }
 }
@@ -87,6 +100,20 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch {
             request: GRPCCore.StreamingServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchRequest>,
             context: GRPCCore.ServerContext
         ) async throws -> GRPCCore.StreamingServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse>
+
+        /// Handle the "EncryptedVisualSearchConfig" method.
+        ///
+        /// - Parameters:
+        ///   - request: A streaming request of `Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest` messages.
+        ///   - context: Context providing information about the RPC.
+        /// - Throws: Any error which occurred during the processing of the request. Thrown errors
+        ///     of type `RPCError` are mapped to appropriate statuses. All other errors are converted
+        ///     to an internal error.
+        /// - Returns: A streaming response of `Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse` messages.
+        func encryptedVisualSearchConfig(
+            request: GRPCCore.StreamingServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest>,
+            context: GRPCCore.ServerContext
+        ) async throws -> GRPCCore.StreamingServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse>
     }
 
     /// Service protocol for the "apple.parsec.encryptedvisualsearch.v1.EncryptedVisualSearch" service.
@@ -110,6 +137,20 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch {
             request: GRPCCore.ServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchRequest>,
             context: GRPCCore.ServerContext
         ) async throws -> GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse>
+
+        /// Handle the "EncryptedVisualSearchConfig" method.
+        ///
+        /// - Parameters:
+        ///   - request: A request containing a single `Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest` message.
+        ///   - context: Context providing information about the RPC.
+        /// - Throws: Any error which occurred during the processing of the request. Thrown errors
+        ///     of type `RPCError` are mapped to appropriate statuses. All other errors are converted
+        ///     to an internal error.
+        /// - Returns: A response containing a single `Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse` message.
+        func encryptedVisualSearchConfig(
+            request: GRPCCore.ServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest>,
+            context: GRPCCore.ServerContext
+        ) async throws -> GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse>
     }
 
     /// Simple service protocol for the "apple.parsec.encryptedvisualsearch.v1.EncryptedVisualSearch" service.
@@ -131,6 +172,20 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch {
             request: Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchRequest,
             context: GRPCCore.ServerContext
         ) async throws -> Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse
+
+        /// Handle the "EncryptedVisualSearchConfig" method.
+        ///
+        /// - Parameters:
+        ///   - request: A `Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest` message.
+        ///   - context: Context providing information about the RPC.
+        /// - Throws: Any error which occurred during the processing of the request. Thrown errors
+        ///     of type `RPCError` are mapped to appropriate statuses. All other errors are converted
+        ///     to an internal error.
+        /// - Returns: A `Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse` to respond with.
+        func encryptedVisualSearchConfig(
+            request: Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest,
+            context: GRPCCore.ServerContext
+        ) async throws -> Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse
     }
 }
 
@@ -144,6 +199,17 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch.StreamingS
             serializer: GRPCProtobuf.ProtobufSerializer<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse>(),
             handler: { request, context in
                 try await self.encryptedVisualSearch(
+                    request: request,
+                    context: context
+                )
+            }
+        )
+        router.registerHandler(
+            forMethod: Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch.Method.EncryptedVisualSearchConfig.descriptor,
+            deserializer: GRPCProtobuf.ProtobufDeserializer<Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest>(),
+            serializer: GRPCProtobuf.ProtobufSerializer<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse>(),
+            handler: { request, context in
+                try await self.encryptedVisualSearchConfig(
                     request: request,
                     context: context
                 )
@@ -165,6 +231,17 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch.ServicePro
         )
         return GRPCCore.StreamingServerResponse(single: response)
     }
+
+    internal func encryptedVisualSearchConfig(
+        request: GRPCCore.StreamingServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest>,
+        context: GRPCCore.ServerContext
+    ) async throws -> GRPCCore.StreamingServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse> {
+        let response = try await self.encryptedVisualSearchConfig(
+            request: GRPCCore.ServerRequest(stream: request),
+            context: context
+        )
+        return GRPCCore.StreamingServerResponse(single: response)
+    }
 }
 
 // Default implementation of methods from 'ServiceProtocol'.
@@ -176,6 +253,19 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearch.SimpleServ
     ) async throws -> GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse> {
         return GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse>(
             message: try await self.encryptedVisualSearch(
+                request: request.message,
+                context: context
+            ),
+            metadata: [:]
+        )
+    }
+
+    internal func encryptedVisualSearchConfig(
+        request: GRPCCore.ServerRequest<Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest>,
+        context: GRPCCore.ServerContext
+    ) async throws -> GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse> {
+        return GRPCCore.ServerResponse<Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse>(
+            message: try await self.encryptedVisualSearchConfig(
                 request: request.message,
                 context: context
             ),

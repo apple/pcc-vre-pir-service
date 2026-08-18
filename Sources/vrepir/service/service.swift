@@ -31,6 +31,7 @@ extension EncryptedVisualSearchService: Apple_Parsec_Encryptedvisualsearch_V1_En
         context _: GRPCCore
             .ServerContext) async throws -> Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponse
     {
+        let start = ContinuousClock.now
         do {
             guard let firstRequest = request.queries.first else {
                 throw RPCError(code: .invalidArgument, message: "Empty request")
@@ -64,6 +65,10 @@ extension EncryptedVisualSearchService: Apple_Parsec_Encryptedvisualsearch_V1_En
             }
 
             let result = try await server.computeResponse(to: queryMatrix.native()).proto()
+            print("""
+                search: shard=\(shardIndex) query=\(queryRowCount)x\(queryColumnCount) \
+                response=\(result.rowCount)x\(result.colCount) elapsed=\(ContinuousClock.now - start)
+                """)
             let apiResult = Apple_SwiftHomomorphicEncryption_Api_V1_Response.with { response in
                 response.simplePirResponse = .with { simplePirResponse in
                     simplePirResponse.response = result
@@ -78,8 +83,19 @@ extension EncryptedVisualSearchService: Apple_Parsec_Encryptedvisualsearch_V1_En
                 ]
             }
         } catch {
-            print("search error: \(error)")
+            print("search error: \(error) elapsed=\(ContinuousClock.now - start)")
             throw RPCError(code: .internalError, message: "\(error)")
         }
+    }
+
+    /// cb_bridged calls this RPC on an interval as its keepalive, to hold the gRPC connection open
+    /// between searches; it discards the response.
+    func encryptedVisualSearchConfig(
+        request _: Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest,
+        context _: GRPCCore.ServerContext) async throws
+        -> Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse
+    {
+        print("config: keepalive")
+        return Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse()
     }
 }
