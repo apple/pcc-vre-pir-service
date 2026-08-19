@@ -168,6 +168,26 @@ struct Apple_Parsec_Encryptedvisualsearch_V1_EVSResponseMetadata: Sendable {
   fileprivate var _error: Apple_Parsec_Search_Error? = nil
 }
 
+struct Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest: Sendable {
+  // SwiftProtobuf.Message conformance is added in an extension below. See the
+  // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+  // methods supported on all messages.
+
+  var unknownFields = SwiftProtobuf.UnknownStorage()
+
+  init() {}
+}
+
+struct Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse: Sendable {
+  // SwiftProtobuf.Message conformance is added in an extension below. See the
+  // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+  // methods supported on all messages.
+
+  var unknownFields = SwiftProtobuf.UnknownStorage()
+
+  init() {}
+}
+
 // MARK: - Code below here is support for the SwiftProtobuf runtime.
 
 fileprivate let _protobuf_package = "apple.parsec.encryptedvisualsearch.v1"
@@ -404,6 +424,44 @@ extension Apple_Parsec_Encryptedvisualsearch_V1_EVSResponseMetadata: SwiftProtob
     if lhs.statusCode != rhs.statusCode {return false}
     if lhs._error != rhs._error {return false}
     if lhs.indexVersion != rhs.indexVersion {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = _protobuf_package + ".ConfigRequest"
+  static let _protobuf_nameMap = SwiftProtobuf._NameMap(bytecode: "\0\u{c}\u{1}\u{1}\u{c}\u{2}\u{1}")
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    // Load everything into unknown fields
+    while try decoder.nextFieldNumber() != nil {}
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest, rhs: Apple_Parsec_Encryptedvisualsearch_V1_ConfigRequest) -> Bool {
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = _protobuf_package + ".ConfigResponse"
+  static let _protobuf_nameMap = SwiftProtobuf._NameMap(bytecode: "\0\u{c}\u{1}\u{1}\u{c}\u{2}\u{1}")
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    // Load everything into unknown fields
+    while try decoder.nextFieldNumber() != nil {}
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse, rhs: Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponse) -> Bool {
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }

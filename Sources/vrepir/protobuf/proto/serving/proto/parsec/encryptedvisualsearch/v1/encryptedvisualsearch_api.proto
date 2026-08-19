@@ -52,3 +52,11 @@ message EVSResponseMetadata {
   apple.parsec.search.Error error = 2;
   string index_version = 3;
 }
+
+message ConfigRequest {
+  reserved 1, 2;
+}
+
+message ConfigResponse {
+  reserved 1, 2;
+}

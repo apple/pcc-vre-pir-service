@@ -20,4 +20,5 @@ import "serving/proto/parsec/encryptedvisualsearch/v1/encryptedvisualsearch_api.
 
 service EncryptedVisualSearch {
     rpc EncryptedVisualSearch(EncryptedVisualSearchRequest) returns (EncryptedVisualSearchResponse);
+    rpc EncryptedVisualSearchConfig(ConfigRequest) returns (ConfigResponse);
 }
