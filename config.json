@@ -1,9 +1,0 @@
-{
-  "ciphertextModulusBits": 42,
-  "errorStdDev": 6.4,
-  "inputDatabase": "output/database.binpb",
-  "latticeDimension": 2048,
-  "outputDatabasePrefix": "output/pir-db",
-  "plaintextModulusBits": 14,
-  "shardCount": 1
-}
